@@ -25,4 +25,4 @@ asktime
 
 pluck + when now+"$blocktime" block "$blocktype"
 
-notify-send "System Blackout" "You have blocked $blocktime for $blocktime"
+notify-send "System Blackout" "You have blocked $blocktype for $blocktime"
