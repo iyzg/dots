@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# Gives a dmenu prompt to blackout websites and programs for certain amounts of time
+
+blocktype=""
+blocktime=""
+asktype() {
+	choice="$(printf "Blackout\\nOnly Allows" | dmenu -i -p "What type of blackout would you like?")" || exit 1
+	case $choice in
+		Blackout) blocktype="everything" ;;
+		"Only Allows") blocktype="otherwise" ;;
+	esac
+}
+
+
+asktime() {
+	choice="$(printf "30m\\n2h" | dmenu -i -p "How long would you like it to be?")" || exit 1
+	case $choice in
+        *) blocktime=$choice
+	esac
+}
+
+asktype
+asktime
+
+pluck + when now+"$blocktime" block "$blocktype"
+
+notify-send "System Blackout" "You have blocked $blocktime for $blocktime"
