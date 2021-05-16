@@ -1,0 +1,13 @@
+#!/bin/sh
+
+activities="$(echo ',,hello' | cat - ~/.tt | cut -d',' -f 3 | tail -n 10 | sort -u)"
+activity=$(printf '%s\n' "${activities}" | dmenu)
+
+if [ -z $activity ]; then
+ exit
+fi
+
+touch ~/.tt
+timestamp=$(date '+%s')
+isodate=$(date --iso-8601=seconds --date "@${timestamp}")
+echo "${timestamp},${isodate},${activity}" >> ~/.tt
