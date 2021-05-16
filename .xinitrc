@@ -3,4 +3,6 @@ while true; do
    sleep 1m    # Update time every minute
 done &
 
+feh --bg-scale ~/.local/share/bg
+
 exec dwm
