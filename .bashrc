@@ -26,7 +26,8 @@ alias \
     e='$EDITOR' \
     p='sudo pacman' \
     x='startx' \
-    z='zathura'
+    z='zathura' \
+    google-chrome='google-chrome-stable'
 
 ## Dotfiles
 alias \
