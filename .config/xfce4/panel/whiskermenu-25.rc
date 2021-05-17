@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=xfce-wm-settings.desktop,xfce-keyboard-settings.desktop,thunar-settings.desktop,xfce4-file-manager.desktop,panel-preferences.desktop,xfce-settings-manager.desktop,xfce-ui-settings.desktop,google-chrome.desktop,anki.desktop
+recent=xfce-wmtweaks-settings.desktop,xfce-settings-manager.desktop,xfce-keyboard-settings.desktop,com.github.themix_project.Oomox.desktop,org.pwmt.zathura.desktop,xfce-wm-settings.desktop,thunar-settings.desktop,xfce4-file-manager.desktop,panel-preferences.desktop,xfce-ui-settings.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false

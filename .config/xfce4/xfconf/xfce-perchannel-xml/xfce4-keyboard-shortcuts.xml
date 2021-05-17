@@ -60,6 +60,7 @@
       <property name="override" type="bool" value="true"/>
       <property name="F8" type="string" value="jumpapp xfce4-terminal"/>
       <property name="F7" type="string" value="jumpapp google-chrome"/>
+      <property name="F9" type="string" value="jumpapp zathura"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
