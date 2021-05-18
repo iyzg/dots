@@ -8,6 +8,7 @@
 PS1='[\u@\h \W]\$ '
 
 PATH=$PATH:~/.local/bin
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
 # Defaults
 export EDITOR="nvim"
@@ -26,8 +27,7 @@ alias \
     e='$EDITOR' \
     p='sudo pacman' \
     x='startx' \
-    z='zathura' \
-    google-chrome='google-chrome-stable'
+    za='zathura' \
 
 ## Dotfiles
 alias \
