@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=redshift-gtk.desktop,xfce-session-settings.desktop,xfce4-terminal-emulator.desktop,xfce4-file-manager.desktop,cups.desktop,xfce-wmtweaks-settings.desktop,xfce-settings-manager.desktop,xfce-keyboard-settings.desktop,com.github.themix_project.Oomox.desktop,org.pwmt.zathura.desktop
+recent=xfce-keyboard-settings.desktop,xfce-wm-settings.desktop,xfce-wmtweaks-settings.desktop,panel-preferences.desktop,xfce4-web-browser.desktop,redshift-gtk.desktop,xfce-session-settings.desktop,xfce4-terminal-emulator.desktop,xfce4-file-manager.desktop,cups.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false

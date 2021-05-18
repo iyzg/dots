@@ -25,6 +25,7 @@
         <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
+        <value type="int" value="1"/>
       </property>
     </property>
   </property>
@@ -49,7 +50,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance17871"/>
+      <property name="mpris-players" type="string" value="chromium.instance17871;chromium.instance2214"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -62,5 +63,6 @@
     </property>
     <property name="plugin-14" type="string" value="actions"/>
     <property name="plugin-25" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="wavelan"/>
   </property>
 </channel>
