@@ -4,3 +4,13 @@
 
 "jumpapp firefox"
   F2
+
+# Multimedia
+"amixer sset Master 2%+"
+  XF86AudioRaiseVolume
+
+"amixer sset Master 2%-"
+  XF86AudioLowerVolume
+
+"amixer sset Master toggle"
+  XF86AudioMute
