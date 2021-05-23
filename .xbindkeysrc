@@ -14,3 +14,9 @@
 
 "amixer sset Master toggle"
   XF86AudioMute
+
+"sudo light -A 2"
+  XF86MonBrightnessUp
+
+"sudo light -U 2"
+  XF86MonBrightnessDown
