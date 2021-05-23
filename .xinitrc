@@ -1,1 +1,3 @@
-exec startxfce4 
+setxkbmap -option caps:swapescape
+
+exec cwm
