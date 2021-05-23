@@ -5,9 +5,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
-" Colorscheme
-Plug 'nerdypepper/vim-colors-plain', { 'branch': 'duotone' }
-
 " Coding
 Plug 'preservim/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
@@ -46,7 +43,7 @@ set nu rnu
 let mapleader = ' '
 
 set bg=dark
-colorscheme plain
+colorscheme lena
 
 " Tab Settings
 "" General

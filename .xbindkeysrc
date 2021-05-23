@@ -5,6 +5,9 @@
 "jumpapp firefox"
   F2
 
+"jumpapp zathura"
+  F3
+
 # Multimedia
 "amixer sset Master 2%+"
   XF86AudioRaiseVolume
