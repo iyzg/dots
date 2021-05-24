@@ -1,12 +1,15 @@
 # Jumpapp
 "jumpapp urxvt"
-  F1
+  KP_End
 
 "jumpapp firefox"
-  F2
+  KP_Down
 
 "jumpapp zathura"
-  F3
+  KP_Next
+
+"jumpapp anki"
+  KP_Left
 
 # Multimedia
 "amixer sset Master 2%+"

@@ -20,6 +20,8 @@ bind-key 4S-4 window-movetogroup-4
 bind-key 4-f window-fullscreen
 bind-key 4-q window-close
 
+bind-key 4-Tab window-rcycle
+
 bind-key M-question menu-exec
 bind-key M-r restart
 
@@ -31,4 +33,3 @@ bind-mouse 4-2 window-resize
 autogroup 1 "urxvt"
 autogroup 2 "firefox"
 autogroup 3 "Zathura"
-
