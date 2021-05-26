@@ -23,6 +23,7 @@ alias \
 
 ## Abbreviations
 alias \
+    d='drive' \
     g='git' \
     e='$EDITOR' \
     p='sudo pacman' \
