@@ -15,6 +15,9 @@
 "jumpapp anki"
   KP_Left
 
+"jumpapp subl"
+  KP_Begin
+
 # Multimedia
 "amixer sset Master 2%+"
   XF86AudioRaiseVolume

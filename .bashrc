@@ -25,7 +25,8 @@ alias \
 alias \
     d='drive' \
     g='git' \
-    e='$EDITOR' \
+    e='$EDITOR "$(fzf)"' \
+    n='ncmpcpp' \
     p='sudo pacman' \
     x='startx' \
     za='zathura' \
@@ -33,3 +34,5 @@ alias \
 ## Dotfiles
 alias \
     cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion

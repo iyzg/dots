@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/home/ivy/src/site/_assets/templates'
+let g:netrw_dirhist_1='/home/ivy/src/cp/usaco'
+let g:netrw_dirhist_0='/'
+let g:netrw_dirhist_9='/home/ivy'
+let g:netrw_dirhist_8='/home/ivy/.config'
+let g:netrw_dirhist_7='/home/ivy'
+let g:netrw_dirhist_6='/home/ivy/.config/nvim'
+let g:netrw_dirhist_5='/home/ivy/.config'
+let g:netrw_dirhist_4='/home/ivy'
+let g:netrw_dirhist_3='/home/ivy/usr/drv/02 Personal/01 Brain/inbox'
+let g:netrw_dirhist_2='/home/ivy'

@@ -1,6 +1,10 @@
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 
+"General
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-unimpaired'
+
 " Focus
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
@@ -13,8 +17,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'reedes/vim-pencil'
 
 " Zettelkasten
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'junegunn/fzf.vim'
 
 call plug#end()
@@ -36,6 +38,7 @@ autocmd! User GoyoEnter Limelight
 autocmd! User GoyoLeave Limelight!
 
 " Settings
+set hidden
 syntax on
 set nowrap
 set nu rnu
@@ -47,19 +50,18 @@ colorscheme lena
 
 " Tab Settings
 "" General
-set tabstop=4
-set softtabstop=4
+set clipboard+=unnamed,unnamedplus
 set expandtab
+set ignorecase
+set mouse=a
 set shiftwidth=4
 set smarttab
+set softtabstop=4
+set tabstop=4
 
-set clipboard+=unnamed,unnamedplus
-set ignorecase
+set history=200
 
 " File Type Options
-"" Markdown
-au BufRead,BufNewFile *.md setlocal textwidth=80
-
 "" HTML
 au BufRead,BufNewFile *.html,*.scss,*.esh,*.css setlocal shiftwidth=2 tabstop=2 expandtab
 
